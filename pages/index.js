@@ -8,7 +8,7 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
-import Lottie from "react-lottie";
+import Lottie from "lottie-react";
 
 import manyHouses from "./../lotties/many-houses.json";
 import house from "./../lotties/make-home.json";
