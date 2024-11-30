@@ -1,0 +1,39 @@
+{
+  "site": {
+    "title": "Naati Ninja | Master the NAATI CCL Exam with AI-Powered Mock Tests",
+    "description": "Prepare Smarter for the NAATI CCL Exam with Naati Ninja",
+    "base_url": "/",
+    "favicon": "/images/favicon.png",
+    "logo": "/images/logo.png",
+    "logo_width": "100",
+    "logo_height": "24",
+    "siteUrl": "https://naatininja.com",
+    "image": "https://naatininja.com/images/logo.png",
+    "logo_text": "Naati Ninja logo"
+  },
+
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+
+  "nav_button": {
+    "enable": true,
+    "label": "Register Free",
+    "link": "https://app.naatininja.com"
+  },
+
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "GTM-",
+    "footer_content": "Master the NAATI CCL Exam with AI-Powered Mock Test",
+    "copyright": ""
+  },
+
+  "metadata": {
+    "meta_author": "Oberoi",
+    "meta_image": "S32 | Master the NAATI CCL Exam with AI-Powered Mock Test",
+    "meta_description": "Prepare Smarter for the NAATI CCL Exam with Naati Ninja"
+  }
+}
