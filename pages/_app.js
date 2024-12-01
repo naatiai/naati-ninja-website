@@ -43,7 +43,7 @@ const App = ({ Component, pageProps }) => {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '');
+                gtag('config', 'G-7FEVS9DR0Y');
               `,
           }}
         />
