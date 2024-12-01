@@ -1,11 +1,11 @@
 ---
 banner:
   title: Master the NAATI CCL Exam with AI-Powered Mock Tests 
-  content: Test, learn, and improve for just $3 per mock
+  content: Prepare for the NAATI CCL exam, earn 5 crucial points for your Australian PR, and master your interpreting skills
   image: /images/banner.svg
   button:
     enable: true
-    label: "Register Free"
+    label: "Get Started Now"
     link: "https://app.naatininja.com"
 
 # feature
@@ -13,11 +13,11 @@ feature:
   title: Why Choose NAATI Ninja
   features:
     - name: "Real Test Simulations"
-      icon: "/images/for-sale.png"
+      icon: "/images/exam.svg"
       content: "Practice with audio-based mock tests that simulate the real NAATI CCL exam experience. Get a feel for the test format and improve your confidence."
 
     - name: "Instant Feedback & Improvement"
-      icon: "/images/for-rent.png"
+      icon: "/images/grades.svg"
       content: "Receive a detailed report within an hour, highlighting areas to improve and track your progress. Perfect your translation and interpretation skills before the exam."
 
 
@@ -26,7 +26,7 @@ services:
   - title: "Test Anytime, Anywhere"
     content: "Access mock tests on-demand, whenever you’re ready. No schedules, no stress – just pure practice at your fingertips."
     images:
-      - house
+      - /images/online.svg
     button:
       enable: true
       label: Start practicing now
@@ -35,7 +35,7 @@ services:
   - title: "Real-Time Results, Real Progress"
     content: "Get instant AI-driven feedback that shows where you excel and where to improve. Learn faster, smarter, and more effectively."
     images:
-      - ai-cycle
+      - /images/results.svg
     button:
       enable: true
       label: Try It Now
@@ -44,7 +44,7 @@ services:
   - title: "Affordable, Powerful Prep"
     content: "Top-quality mock tests starting at just $3. Your NAATI CCL preparation doesn’t have to break the bank."
     images:
-      - reports
+      - /images/savings.svg
     button:
       enable: true
       label: Get Started Free
@@ -53,7 +53,7 @@ services:
   - title: "Track Your Growth"
     content: "Review your past tests and track your improvement over time. See your progress and get closer to your NAATI CCL goals."
     images:
-      - risk
+      - /images/track_growth.svg
     button:
       enable: true
       label: Take your first step

@@ -43,7 +43,7 @@ const App = ({ Component, pageProps }) => {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-P68CF3KVSB');
+                gtag('config', '');
               `,
           }}
         />
@@ -82,7 +82,7 @@ const App = ({ Component, pageProps }) => {
               a.src = d;
               m.parentNode.insertBefore(a, m)
             })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
-            sender('593118047b9503');
+            sender('');
           `,
           }}
         />

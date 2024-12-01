@@ -5,8 +5,10 @@
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
-    "logo_width": "100",
-    "logo_height": "24",
+    "logo_width": "137",
+    "logo_height": "31",
+    "footer_logo_width": "137",
+    "footer_logo_height": "31",
     "siteUrl": "https://naatininja.com",
     "image": "https://naatininja.com/images/logo.png",
     "logo_text": "Naati Ninja logo"
@@ -28,12 +30,12 @@
     "contact_form_action": "",
     "tag_manager_id": "GTM-",
     "footer_content": "Master the NAATI CCL Exam with AI-Powered Mock Test",
-    "copyright": ""
+    "copyright": "Naati Ninja P/L"
   },
 
   "metadata": {
-    "meta_author": "Oberoi",
-    "meta_image": "S32 | Master the NAATI CCL Exam with AI-Powered Mock Test",
+    "meta_author": "Naati Ninja",
+    "meta_image": "Naati Ninja | Master the NAATI CCL Exam with AI-Powered Mock Test",
     "meta_description": "Prepare Smarter for the NAATI CCL Exam with Naati Ninja"
   }
 }

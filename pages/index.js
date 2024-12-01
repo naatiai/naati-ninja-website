@@ -8,50 +8,50 @@ import { Autoplay, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import { getListPage } from "../lib/contentParser";
-import Lottie from "lottie-react";
 
-import manyHouses from "./../lotties/many-houses.json";
-import house from "./../lotties/make-home.json";
-import risk from "./../lotties/checkbox.json";
-import reports from "./../lotties/reports.json";
-import plantMoney from "./../lotties/plant-money.json";
-import aiCycle from "./../lotties/ai-cycle.json";
+// import Lottie from "lottie-react";
+// import manyHouses from "./../lotties/many-houses.json";
+// import house from "./../lotties/make-home.json";
+// import risk from "./../lotties/checkbox.json";
+// import reports from "./../lotties/reports.json";
+// import plantMoney from "./../lotties/plant-money.json";
+// import aiCycle from "./../lotties/ai-cycle.json";
 
 const Home = ({ frontmatter }) => {
   const { banner, feature, services, workflow, call_to_action } = frontmatter;
   const { title } = config.site;
 
   // Utility function to set animation options
-  const defaultOptions = (customAnimationData) => {
-    return {
-      loop: true,
-      autoplay: true,
-      animationData: customAnimationData,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice",
-      },
-    };
-  };
+  // const defaultOptions = (customAnimationData) => {
+  //   return {
+  //     loop: true,
+  //     autoplay: true,
+  //     animationData: customAnimationData,
+  //     rendererSettings: {
+  //       preserveAspectRatio: "xMidYMid slice",
+  //     },
+  //   };
+  // };
 
   // Function to get the correct animation data
-  const getAnimation = (slide) => {
-    switch (slide) {
-      case "many-houses":
-        return manyHouses;
-      case "house":
-        return house;
-      case "risk":
-        return risk;
-      case "reports":
-        return reports;
-      case "ai-cycle":
-        return aiCycle;
-      case "plant":
-        return plantMoney;
-      default:
-        return null;
-    }
-  };
+  // const getAnimation = (slide) => {
+  //   switch (slide) {
+  //     case "many-houses":
+  //       return manyHouses;
+  //     case "house":
+  //       return house;
+  //     case "risk":
+  //       return risk;
+  //     case "reports":
+  //       return reports;
+  //     case "ai-cycle":
+  //       return aiCycle;
+  //     case "plant":
+  //       return plantMoney;
+  //     default:
+  //       return null;
+  //   }
+  // };
 
   return (
     <Base title={title}>
@@ -162,14 +162,22 @@ const Home = ({ frontmatter }) => {
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
                       <SwiperSlide key={index}>
-                        {getAnimation(slide) ? (
+                        {/* {getAnimation(slide) ? ( */}
+                        {/* {getAnimation(slide) ? (
                           <Lottie
                             options={defaultOptions(getAnimation(slide))}
-                            alt="S32 Animation"
+                            alt="Naati Ninja Animation"
                             width={350}
                             height={250}
                           />
-                        ) : null}
+                        ) : null} */}
+                        <Image
+                        className="ml-1"
+                        src={slide}
+                        width={350}
+                        height={250}
+                        alt="arrow"
+                      />
                       </SwiperSlide>
                     ))}
                   </Swiper>

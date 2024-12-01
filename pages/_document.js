@@ -31,7 +31,7 @@ const Document = () => {
         {/* Meta Domain Verification */}
         <meta
           name="facebook-domain-verification"
-          content="0bj0ywgd2uercd2ujuvvsygi9xf4sq"
+          content=""
         />
 
         {/* Meta Pixel Code */}
@@ -48,7 +48,7 @@ const Document = () => {
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '543686624931798');
+            fbq('init', '');
             fbq('track', 'PageView');
           `,
           }}

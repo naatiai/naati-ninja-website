@@ -57,7 +57,7 @@ const Contact = ({ data }) => {
         name: "",
         email: "",
         message: "",
-        host: "s32.com.au",
+        host: "naatininja.com",
         type: "contact",
       });
     } catch (e) {
@@ -111,7 +111,7 @@ const Contact = ({ data }) => {
               </div>
               <button
                 type="submit"
-                className="hover:border-1 inline-flex cursor-pointer items-center rounded-md bg-gradient-to-r from-[#099f9e] to-[#f7941e] px-4 py-2 text-lg font-semibold leading-6 text-white shadow transition duration-150 ease-in-out hover:rounded-lg hover:from-white hover:to-white hover:text-[#099f9e]"
+                className="btn btn-primary z-0 mt-4 py-[14px]"
                 disabled={loading} // Disable button while loading
               >
                 {loading ? "Sending..." : "Send Message"}
