@@ -5,130 +5,63 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://s32.com.au/</loc>
-  <lastmod>2024-05-16T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com</loc>
+  <lastmod>2024-10-16T09:29:01+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/blogs</loc>
-  <lastmod>2024-05-16T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/blogs</loc>
+  <lastmod>2024-10-16T09:29:01+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/pricing</loc>
-  <lastmod>2024-05-16T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/pricing</loc>
+  <lastmod>2024-10-16T09:29:01+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/contact</loc>
-  <lastmod>2024-05-16T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/contact</loc>
+  <lastmod>2024-11-16T09:29:01+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/faq</loc>
-  <lastmod>2024-05-16T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/faq</loc>
+  <lastmod>2024-11-16T09:29:01+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/privacy</loc>
-  <lastmod>2024-06-01T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/privacy</loc>
+  <lastmod>2024-11-01T09:29:01+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/terms</loc>
-  <lastmod>2024-06-01T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/terms</loc>
+  <lastmod>2024-11-01T09:29:01+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/disclaimer</loc>
-  <lastmod>2024-06-01T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/disclaimer</loc>
+  <lastmod>2024-11-01T09:29:01+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.6</priority>
 </url>
-
 <url>
-  <loc>https://s32.com.au/blogs/what-is-s32</loc>
-  <lastmod>2024-05-16T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/blogs/what-is-naatininja</loc>
+  <lastmod>2024-11-16T09:29:01+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://s32.com.au/blogs/beta-launch</loc>
-  <lastmod>2024-06-01T09:29:01+00:00</lastmod>
+  <loc>https://naatininja.com/blogs/naatininja-is-live</loc>
+  <lastmod>2024-11-16T09:29:01+00:00</lastmod>
   <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/join-the-beta-program</loc>
-  <lastmod>2024-06-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/s32-on-producthunt</loc>
-  <lastmod>2024-06-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/upcoming-features</loc>
-  <lastmod>2024-06-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/report-generation-release</loc>
-  <lastmod>2024-07-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/full-beta-launch</loc>
-  <lastmod>2024-07-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/what-is-rental-agreement</loc>
-  <lastmod>2024-07-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/what-is-a-contact-of-sale-section-32</loc>
-  <lastmod>2024-07-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/aus-homes-increasing-8-percent</loc>
-  <lastmod>2024-07-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/rea-global-trends-2024</loc>
-  <lastmod>2024-07-01T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.6</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/s32-public-launch</loc>
-  <lastmod>2024-07-24T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
-</url>
-<url>
-  <loc>https://s32.com.au/blogs/simplify-property-journey</loc>
-  <lastmod>2024-08-11T09:29:01+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-  <priority>0.7</priority>
+  <priority>0.64</priority>
 </url>
 </urlset>

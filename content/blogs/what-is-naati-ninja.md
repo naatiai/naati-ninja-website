@@ -1,8 +1,8 @@
 ---
 title: "What is NAATI Ninja?"
 description: "Discover NAATI Ninja, the AI-powered platform designed to help you ace your NAATI CCL exam. Take affordable mock tests, get instant feedback, and track your progress—perfect for aspiring interpreters and translators."
-image: "/images/ninja_logo.png"
-date: 2024-11-30T01:00:00Z
+image: "/images/logo.png"
+date: 2024-10-30T01:00:00Z
 draft: false
 ---
 
