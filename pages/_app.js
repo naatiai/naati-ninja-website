@@ -82,7 +82,7 @@ const App = ({ Component, pageProps }) => {
               a.src = d;
               m.parentNode.insertBefore(a, m)
             })(window, document, 'script', 'https://cdn.sender.net/accounts_resources/universal.js', 'sender');
-            sender('');
+            sender('cb79b74d206602');
           `,
           }}
         />

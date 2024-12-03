@@ -31,7 +31,7 @@ const Document = () => {
         {/* Meta Domain Verification */}
         <meta
           name="facebook-domain-verification"
-          content=""
+          content="aqizbt2wxdxiigotivpg5lun6dnjaz"
         />
 
         {/* Meta Pixel Code */}
