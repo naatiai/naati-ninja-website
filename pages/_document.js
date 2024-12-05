@@ -5,6 +5,8 @@ import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 const Document = () => {
   // destructuring items from config object
   const { favicon, title, description, siteUrl, image } = config.site;
+  const defaultImage = "/images/logo.png"; // The default image for social sharing
+
   return (
     <Html lang="en">
       <Head>
@@ -13,7 +15,7 @@ const Document = () => {
           rel="shortcut icon"
           type="image/png"
           sizes="32x32"
-          href={favicon}
+          href={favicon || "/images/favicon.ico"}
         />
         {/* theme meta */}
         <meta name="theme-name" content="next-boilerplate" />
@@ -37,7 +39,6 @@ const Document = () => {
         
         <GoogleAnalytics gaId="G-7FEVS9DR0Y" />
         <GoogleTagManager gtmId="GTM-PNT7FWQG" />
-
 
         {/* Meta Pixel Code */}
         <script
@@ -64,7 +65,7 @@ const Document = () => {
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="og:url" content={siteUrl} />
-        <meta property="og:image" content={image} />
+        <meta property="og:image" content={image || defaultImage} />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
@@ -73,7 +74,7 @@ const Document = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
-        <meta name="twitter:image" content={image} />
+        <meta name="twitter:image" content={image || defaultImage} />
       </Head>
       <body>
         <Main />
