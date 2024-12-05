@@ -4,7 +4,6 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 // import TagManager from "react-gtm-module";
 import "styles/style.scss";
-import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
@@ -50,9 +49,6 @@ const App = ({ Component, pageProps }) => {
               `,
           }}
         /> */}
-
-        <GoogleAnalytics gaId="G-7FEVS9DR0Y" />
-        <GoogleTagManager gtmId="GTM-PNT7FWQG" />
 
         {/* google font css */}
         <link

@@ -1,5 +1,6 @@
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const Document = () => {
   // destructuring items from config object
@@ -33,6 +34,10 @@ const Document = () => {
           name="facebook-domain-verification"
           content="aqizbt2wxdxiigotivpg5lun6dnjaz"
         />
+        
+        <GoogleAnalytics gaId="G-7FEVS9DR0Y" />
+        <GoogleTagManager gtmId="GTM-PNT7FWQG" />
+
 
         {/* Meta Pixel Code */}
         <script
