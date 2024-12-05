@@ -2,8 +2,9 @@ import config from "@config/config.json";
 import theme from "@config/theme.json";
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import TagManager from "react-gtm-module";
+// import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const App = ({ Component, pageProps }) => {
   // default theme setup
@@ -21,14 +22,16 @@ const App = ({ Component, pageProps }) => {
   }, [pf, sf]);
 
   // google tag manager (gtm)
-  const tagManagerArgs = {
-    gtmId: config.params.tag_manager_id,
-  };
+  // const tagManagerArgs = {
+  //   gtmId: config.params.tag_manager_id,
+  // };
+
   useEffect(() => {
     setTimeout(() => {
-      process.env.NODE_ENV === "production" &&
-        config.params.tag_manager_id &&
-        TagManager.initialize(tagManagerArgs);
+      process.env.NODE_ENV === "production";
+      // &&
+      // config.params.tag_manager_id &&
+      // TagManager.initialize(tagManagerArgs);
     }, 5000);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -37,7 +40,7 @@ const App = ({ Component, pageProps }) => {
     <>
       <Head>
         {/* google analytics */}
-        <script
+        {/* <script
           dangerouslySetInnerHTML={{
             __html: `
                 window.dataLayer = window.dataLayer || [];
@@ -46,7 +49,10 @@ const App = ({ Component, pageProps }) => {
                 gtag('config', 'G-7FEVS9DR0Y');
               `,
           }}
-        />
+        /> */}
+
+        <GoogleAnalytics gaId="G-7FEVS9DR0Y" />
+        <GoogleTagManager gtmId="GTM-PNT7FWQG" />
 
         {/* google font css */}
         <link
