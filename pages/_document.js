@@ -1,5 +1,6 @@
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
+import Script from "next/script";
 // import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const Document = () => {
