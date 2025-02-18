@@ -42,7 +42,7 @@ services:
       link: "https://app.naatininja.com"
 
   - title: "Affordable, Powerful Prep"
-    content: "Top-quality mock tests starting at just $3. Your NAATI CCL preparation doesn’t have to break the bank."
+    content: "Top-quality mock tests starting at just $5. Your NAATI CCL preparation doesn’t have to break the bank."
     images:
       - /images/savings.svg
     button:
@@ -57,6 +57,15 @@ services:
     button:
       enable: true
       label: Take your first step
+      link: "https://app.naatininja.com"
+
+  - title: "Get Your First Mock Test for Free!"
+    content: "Sign up now and take a free NAATI CCL mock test."
+    images:
+      - /images/heart-symbol.svg
+    button:
+      enable: true
+      label: Sign up now
       link: "https://app.naatininja.com"
 
 

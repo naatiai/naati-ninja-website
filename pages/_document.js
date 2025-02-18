@@ -1,6 +1,6 @@
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
-import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
+// import { GoogleTagManager, GoogleAnalytics } from "@next/third-parties/google";
 
 const Document = () => {
   // destructuring items from config object
@@ -36,9 +36,48 @@ const Document = () => {
           name="facebook-domain-verification"
           content="aqizbt2wxdxiigotivpg5lun6dnjaz"
         />
-        
-        <GoogleAnalytics gaId="G-7FEVS9DR0Y" />
-        <GoogleTagManager gtmId="GTM-PNT7FWQG" />
+
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-PNT7FWQG"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        {/* End Google Tag Manager (noscript) */}
+
+        {/* Google Tag Manager */}
+        <Script strategy="lazyOnload" id="gtm-script">
+          {`
+          (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+          })(window,document,'script','dataLayer','GTM-PNT7FWQG');
+        `}
+        </Script>
+        {/* End Google Tag Manager */}
+
+        {/* Google Analytics */}
+        <Script
+          strategy="lazyOnload"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-7FEVS9DR0Y"
+        />
+        <Script strategy="lazyOnload" id="ga-script">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-7FEVS9DR0Y');
+        `}
+        </Script>
+        {/* End Google Analytics */}
+
+        {/* <GoogleAnalytics gaId="G-7FEVS9DR0Y" />
+        <GoogleTagManager gtmId="GTM-PNT7FWQG" /> */}
 
         {/* Meta Pixel Code */}
         <script

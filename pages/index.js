@@ -147,7 +147,7 @@ const Home = ({ frontmatter }) => {
             <div className="container">
               <div className="items-center gap-8 md:grid md:grid-cols-2">
                 {/* Carousel */}
-                <div className={`service-carousel ${!isOdd && "md:order-2"}`}>
+                <div className={`service-carousel ${isOdd && "md:order-1"}`}>
                   <Swiper
                     modules={[Autoplay, Pagination]}
                     pagination={
@@ -162,15 +162,6 @@ const Home = ({ frontmatter }) => {
                     {/* Slides */}
                     {service?.images.map((slide, index) => (
                       <SwiperSlide key={index}>
-                        {/* {getAnimation(slide) ? ( */}
-                        {/* {getAnimation(slide) ? (
-                          <Lottie
-                            options={defaultOptions(getAnimation(slide))}
-                            alt="Naati Ninja Animation"
-                            width={350}
-                            height={250}
-                          />
-                        ) : null} */}
                         <Image
                         className="ml-1"
                         src={slide}

@@ -38,17 +38,6 @@ const App = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        {/* google analytics */}
-        {/* <script
-          dangerouslySetInnerHTML={{
-            __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-7FEVS9DR0Y');
-              `,
-          }}
-        /> */}
 
         {/* google font css */}
         <link
