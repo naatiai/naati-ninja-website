@@ -3,10 +3,11 @@ import config from "@config/config.json";
 import { markdownify } from "@lib/utils/textConverter";
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, addDoc } from "firebase/firestore/lite";
+import Base from "./Baseof";
 
 const Contact = ({ data }) => {
   const { frontmatter } = data;
-  const { title, info } = frontmatter;
+  const { title, meta_title, description, image, noindex, canonical, info } = frontmatter;
   // const { contact_form_action } = config.params;
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -68,78 +69,87 @@ const Contact = ({ data }) => {
   };
 
   return (
-    <section className="section">
-      <div className="container">
-        {markdownify(title, "h1", "text-center font-normal")}
-        <div className="section row pb-0">
-          <div className="col-12 md:col-6 lg:col-7">
-            <form onSubmit={handleSubmit}>
-              <div className="mb-3">
-                <input
-                  className="form-input w-full rounded"
-                  name="name"
-                  type="text"
-                  placeholder="Name"
-                  onChange={handleChange}
-                  value={formData.name}
-                  required
-                  disabled={loading}
-                />
-              </div>
-              <div className="mb-3">
-                <input
-                  className="form-input w-full rounded"
-                  name="email"
-                  type="email"
-                  placeholder="Your email"
-                  onChange={handleChange}
-                  value={formData.email}
-                  required
-                  disabled={loading}
-                />
-              </div>
-              <div className="mb-3">
-                <textarea
-                  className="form-textarea w-full rounded-md"
-                  name="message"
-                  rows="7"
-                  placeholder="Your message"
-                  onChange={handleChange}
-                  value={formData.message}
-                  disabled={loading}
-                />
-              </div>
-              <button
-                type="submit"
-                className="btn btn-primary z-0 mt-4 py-[14px]"
-                disabled={loading} // Disable button while loading
-              >
-                {loading ? "Sending..." : "Send Message"}
-              </button>
-              {error && <p className="m-2 text-red-500">{error}</p>}
-              {successMessage && (
-                <p className="m-2 text-green-500">{successMessage}</p>
-              )}
+    <Base
+      title={title}
+      meta_title={meta_title}
+      description={description}
+      image={image}
+      noindex={noindex}
+      canonical={canonical}
+    >
+      <section className="section">
+        <div className="container">
+          {markdownify(title, "h1", "text-center font-normal")}
+          <div className="section row pb-0">
+            <div className="col-12 md:col-6 lg:col-7">
+              <form onSubmit={handleSubmit}>
+                <div className="mb-3">
+                  <input
+                    className="form-input w-full rounded"
+                    name="name"
+                    type="text"
+                    placeholder="Name"
+                    onChange={handleChange}
+                    value={formData.name}
+                    required
+                    disabled={loading}
+                  />
+                </div>
+                <div className="mb-3">
+                  <input
+                    className="form-input w-full rounded"
+                    name="email"
+                    type="email"
+                    placeholder="Your email"
+                    onChange={handleChange}
+                    value={formData.email}
+                    required
+                    disabled={loading}
+                  />
+                </div>
+                <div className="mb-3">
+                  <textarea
+                    className="form-textarea w-full rounded-md"
+                    name="message"
+                    rows="7"
+                    placeholder="Your message"
+                    onChange={handleChange}
+                    value={formData.message}
+                    disabled={loading}
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="btn btn-primary z-0 mt-4 py-[14px]"
+                  disabled={loading} // Disable button while loading
+                >
+                  {loading ? "Sending..." : "Send Message"}
+                </button>
+                {error && <p className="m-2 text-red-500">{error}</p>}
+                {successMessage && (
+                  <p className="m-2 text-green-500">{successMessage}</p>
+                )}
 
-              {/* <button type="submit" className="btn btn-primary">
-                Send Now
-              </button> */}
-            </form>
-          </div>
-          <div className="content col-12 md:col-6 lg:col-5">
-            {markdownify(info.title, "h4")}
-            {markdownify(info.description, "p", "mt-4")}
-            <ul className="contact-list mt-5">
-              {info.contacts.map((contact, index) => (
-                <li key={index}>
-                  {markdownify(contact, "strong", "text-dark")}
-                </li>
-              ))}
-            </ul>
+                {/* <button type="submit" className="btn btn-primary">
+                  Send Now
+                </button> */}
+              </form>
+            </div>
+            <div className="content col-12 md:col-6 lg:col-5">
+              {markdownify(info.title, "h4")}
+              {markdownify(info.description, "p", "mt-4")}
+              <ul className="contact-list mt-5">
+                {info.contacts.map((contact, index) => (
+                  <li key={index}>
+                    {markdownify(contact, "strong", "text-dark")}
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </Base>
   );
 };
 

@@ -1,9 +1,11 @@
 ---
 title: "Boost Your PR Application with NAATI Ninja: Earn 5 Extra Points"
 description: "Discover how NAATI Ninja can help you ace the NAATI CCL exam and secure 5 vital points towards your Australian PR application."
+meta_title: "Boost Your PR Application with NAATI Ninja: Earn 5 Extra Points"
 image: "/images/plane.svg"
 date: 2024-11-20T01:00:00Z
 draft: false
+canonical: https://naatininja.com/blogs/boost-pr-with-naatininjs
 ---
 
 Unlock 5 Crucial Points for Your PR with NAATI Ninja

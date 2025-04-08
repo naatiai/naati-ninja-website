@@ -1,5 +1,10 @@
 ---
 title: Pricing
+meta_title: Pricing - NAATI Ninja
+description: Choose the NAATI CCL mock test plan that fits your needs and budget. Get started with a free account today!
+image: "/images/pricing.svg"
+noindex: false
+canonical: https://naatininja.com/pricing
 layout: pricing
 draft: false
 

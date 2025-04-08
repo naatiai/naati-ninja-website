@@ -1,9 +1,11 @@
 ---
 title: "How NAATI Ninja’s AI Delivers an Unmatched CCL Exam Experience"
-description: "Discover the cutting-edge AI behind NAATI Ninja that powers accurate grading, dynamic test creation, and instant feedback for the ultimate CCL exam preparation experience."
+description: "Discover how NAATI Ninja's AI delivers accurate grading, dynamic test creation, and instant feedback for your NAATI CCL exam preparation. Get ready for your Australian PR!"
+meta_title: "How NAATI Ninja's AI Delivers an Unmatched NAATI CCL Exam Experience"
 image: "/images/programmer.svg"
 date: 2024-11-11T01:00:00Z
 draft: false
+canonical: https://naatininja.com/blogs/how-naatininja-works
 ---
 
 The AI Advantage: Redefining NAATI CCL Exam Prep

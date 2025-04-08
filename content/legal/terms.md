@@ -1,7 +1,11 @@
 ---
 title: "Terms of Service"
+meta_title: "Terms of Service - NAATI Ninja"
+description: "Read the Terms of Service for NAATI Ninja. We provide AI-powered practice tests for the NAATI CCL exam, helping you prepare for Australian migration and earn 5 PR points."
+image: "/images/legal.svg"
 date: 2024-05-29T01:00:00Z
 draft: false
+canonical: https://naatininja.com/legal/terms
 ---
 
 ---

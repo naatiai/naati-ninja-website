@@ -1,7 +1,11 @@
 ---
 title: "Privacy Policy"
+meta_title: "Privacy Policy - NAATI Ninja"
+description: "Read NAATI Ninja's Privacy Policy. We offer AI-powered NAATI CCL practice tests in Hindi, Tamil, Mandarin & more, helping you achieve your Australian PR goals."
+image: "/images/legal.svg"
 date: 2024-05-29T01:00:00Z
 draft: false
+canonical: https://naatininja.com/legal/privacy
 ---
 
 ---

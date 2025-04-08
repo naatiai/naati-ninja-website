@@ -1,7 +1,11 @@
 ---
 title: "Disclaimer"
+meta_title: "Disclaimer - NAATI Ninja"
+description: "Read the disclaimer for NAATI Ninja. We provide AI-powered practice tests for the NAATI CCL exam, helping you prepare for Australian migration and earn 5 PR points."
+image: "/images/legal.svg"
 date: 2024-11-30T01:00:00Z
 draft: false
+canonical: https://naatininja.com/legal/disclaimer
 ---
 
 ### WEBSITE DISCLAIMER

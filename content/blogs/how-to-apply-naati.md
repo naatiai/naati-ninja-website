@@ -1,9 +1,11 @@
 ---
 title: "How to Apply for the NAATI Exam: A Step-by-Step Guide"
-description: "Ready to take the NAATI CCL exam? Here’s your complete guide to applying, with tips on everything you need to get started."
+description: "Ready to take the NAATI CCL exam? This step-by-step guide provides tips on how to apply and prepare for your Australian PR. Practice with NAATI Ninja mock tests!"
+meta_title: "How to Apply for the NAATI CCL Exam: A Step-by-Step Guide"
 image: "/images/naati-logo.svg"
 date: 2024-10-05T01:00:00Z
 draft: false
+canonical: https://naatininja.com/blogs/how-to-apply-naati
 ---
 
 How to Apply for the NAATI Exam: A Step-by-Step Guide

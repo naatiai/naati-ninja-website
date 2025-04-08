@@ -2,6 +2,7 @@ import Link from "next/link";
 import Cta from "./components/Cta";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Base from "./Baseof";
 
 function Pricing({ data }) {
   const router = useRouter();
@@ -45,10 +46,17 @@ function Pricing({ data }) {
   };
 
   const {
-    frontmatter: { title, plans, call_to_action },
+    frontmatter: { title, meta_title, description, image, noindex, canonical, plans, call_to_action },
   } = data;
   return (
-    <>
+    <Base
+      title={title}
+      meta_title={meta_title}
+      description={description}
+      image={image}
+      noindex={noindex}
+      canonical={canonical}
+    >
       <section className="section pb-0">
         <div className="container mx-auto mt-10 flex flex-col gap-4">
           <div className="p-6 text-center">
@@ -112,7 +120,7 @@ function Pricing({ data }) {
         </div>
       </section>
       <Cta cta={call_to_action} />
-    </>
+    </Base>
   );
 }
 

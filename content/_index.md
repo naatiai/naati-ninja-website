@@ -1,8 +1,11 @@
 ---
 banner:
-  title: Master the NAATI CCL Exam with AI-Powered Mock Tests 
-  content: Prepare for the NAATI CCL exam, earn 5 crucial points for your Australian PR, and master your interpreting skills
+  title: Master the NAATI CCL Exam with AI-Powered Mock Tests
+  meta_title: NAATI Ninja - Master the NAATI CCL Exam
+  description: Prepare for the NAATI CCL exam, earn 5 crucial points for your Australian PR, and master your interpreting skills
   image: /images/banner.svg
+  noindex: false
+  canonical: https://naatininja.com/
   button:
     enable: true
     label: "Get Started Now"

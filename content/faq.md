@@ -1,5 +1,10 @@
 ---
 title: Frequently Asked Questions
+meta_title: FAQ - NAATI Ninja
+description: Find answers to frequently asked questions about NAATI Ninja, our AI-powered platform for NAATI CCL exam preparation.
+image: "/images/faq.svg"
+noindex: false
+canonical: https://naatininja.com/faq
 layout: faq
 draft: false
 faqs:
