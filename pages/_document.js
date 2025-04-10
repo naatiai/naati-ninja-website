@@ -100,6 +100,11 @@ const Document = () => {
           }}
         />
 
+        {/* AHREFS */}
+        <script src="https://analytics.ahrefs.com/analytics.js"
+            data-key="wKliMANM7dIfd9JNiNU1Nw" async>
+        </script>
+
         {/* Open Graph meta tags */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content={title} />
