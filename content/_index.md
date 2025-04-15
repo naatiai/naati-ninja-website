@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "NAATI CCL Practice Tests & Mock Tests | Naati Ninja"
+  title: "Master the NAATI CCL Exam with AI-Powered Mock Tests"
   meta_title: "NAATI Ninja - NAATI CCL Practice, Mock Tests & Online Preparation"
   description: "Prepare for the NAATI CCL exam in Australia with our AI-powered practice tests and mock tests. Get online NAATI coaching and preparation for your NAATI Australia test. Free mock test available!"
   image: /images/banner.svg
