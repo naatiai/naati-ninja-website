@@ -13,26 +13,49 @@ const RegularPages = ({ data }) => {
   const { content } = data;
 
   return (
-    <Base
-      title={title}
-      description={description ? description : content.slice(0, 120)}
-      meta_title={meta_title}
-      image={image}
-      noindex={noindex}
-      canonical={canonical}
-    >
+    <>
       {layout === "404" ? (
-        <NotFound data={data} />
+        <NotFound data={data}
+          title={title}
+          description={description ? description : content.slice(0, 120)}
+          meta_title={meta_title}
+          image={image}
+          noindex={noindex}
+          canonical={canonical} />
       ) : layout === "contact" ? (
-        <Contact data={data} />
+        <Contact data={data}
+          title={title}
+          description={description ? description : content.slice(0, 120)}
+          meta_title={meta_title}
+          image={image}
+          noindex={noindex}
+          canonical={canonical} />
       ) : layout === "pricing" ? (
-        <Pricing data={data} />
+        <Pricing data={data}
+          title={title}
+          description={description ? description : content.slice(0, 120)}
+          meta_title={meta_title}
+          image={image}
+          noindex={noindex}
+          canonical={canonical} />
       ) : layout === "faq" ? (
-        <Faq data={data} />
+        <Faq data={data}
+          title={title}
+          description={description ? description : content.slice(0, 120)}
+          meta_title={meta_title}
+          image={image}
+          noindex={noindex}
+          canonical={canonical} />
       ) : (
-        <Default data={data} />
+        <Default data={data}
+          title={title}
+          description={description ? description : content.slice(0, 120)}
+          meta_title={meta_title}
+          image={image}
+          noindex={noindex}
+          canonical={canonical} />
       )}
-    </Base>
+    </>
   );
 };
 export default RegularPages;
