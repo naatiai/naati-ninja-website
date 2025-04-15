@@ -1,7 +1,7 @@
 ---
-title: "Unlocking 5 PR Points: Why NAATI CCL Is Your Best Move for Australian Migration"
-description: "Unlock 5 PR points for Australian migration with the NAATI CCL exam! NAATI Ninja offers AI-powered practice tests in Hindi, Tamil, Mandarin & more. Start your exam preparation today!"
-meta_title: "Unlocking 5 PR Points: Why NAATI CCL Is Your Best Move for Australian Migration"
+title: "Unlock 5 PR Points with NAATI CCL | NAATI Ninja Practice Tests & Online Coaching"
+description: "Unlock 5 PR points for Australian migration with the NAATI CCL exam! NAATI Ninja offers AI-powered practice tests and online NAATI coaching in Hindi, Tamil, Mandarin & more. Start your NAATI Australia test preparation today!"
+meta_title: "NAATI Ninja - Unlock 5 PR Points with NAATI CCL Exam Preparation"
 image: "/images/scooter-friends.svg"
 date: 2024-11-30T01:00:00Z
 draft: false

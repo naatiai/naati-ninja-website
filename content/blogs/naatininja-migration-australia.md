@@ -1,7 +1,7 @@
 ---
-title: "Mastering NAATI CCL: Your Secret Weapon for Migrating to Australia"
-description: "Ace your Australian migration journey with NAATI Ninja! Mastering the NAATI CCL exam gives you 5 PR points. Get AI-powered practice tests in Hindi, Tamil, Mandarin & more."
-meta_title: "Mastering NAATI CCL: Your Secret Weapon for Migrating to Australia"
+title: "Mastering NAATI CCL for Australian Migration | NAATI Ninja Practice Tests & Mock Tests"
+description: "Ace your Australian migration journey with NAATI Ninja! Mastering the NAATI CCL exam gives you 5 PR points. Get AI-powered practice tests and online NAATI coaching in Hindi, Tamil, Mandarin & more for your NAATI Australia test."
+meta_title: "NAATI Ninja - NAATI CCL Exam Preparation for Australian Migration"
 image: "/images/world-yellow.svg"
 date: 2024-12-01T01:00:00Z
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: "Get 1 Free Mock Test on Sign-Up – Ace the NAATI CCL Exam!"
-description: "Get 1 FREE NAATI CCL mock test on sign-up with NAATI Ninja! Ace your Australian PR application with AI-powered practice tests and expert feedback."
-meta_title: "Get 1 Free Mock Test on Sign-Up – Ace the NAATI CCL Exam!"
+title: "Get 1 Free NAATI CCL Mock Test on Sign-Up | NAATI Ninja"
+description: "Get 1 FREE NAATI CCL mock test on sign-up with NAATI Ninja! Ace your Australian PR application with AI-powered practice tests and expert feedback. Prepare for your NAATI Australia test with online NAATI coaching."
+meta_title: "NAATI Ninja - Free NAATI CCL Mock Test & Exam Preparation"
 image: "/images/phone-pay.svg"
 date: 2025-02-18T01:00:00Z
 draft: false

@@ -1,7 +1,7 @@
 ---
-title: "Ace Your NAATI CCL Exam with AI-Driven Precision"
-description: "Get ahead in your NAATI CCL exam preparation with AI-powered tools. Let NAATI Ninja’s smart technology guide you to success and earn 5 PR points faster!"
-meta_title: "Ace Your NAATI CCL Exam with AI-Driven Precision - NAATI Ninja"
+title: "Ace Your NAATI CCL Exam with AI-Driven Precision | NAATI Ninja"
+description: "Prepare for your NAATI CCL exam with AI-powered tools from NAATI Ninja. Get online NAATI coaching, practice tests, and mock tests to earn 5 PR points faster for your NAATI Australia test!"
+meta_title: "NAATI Ninja - Ace Your NAATI CCL Exam with AI-Driven Precision"
 image: "/images/online.svg"
 date: 2024-12-01T01:00:00Z
 draft: false

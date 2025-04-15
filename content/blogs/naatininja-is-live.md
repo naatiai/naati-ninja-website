@@ -1,7 +1,7 @@
 ---
-title: "NAATI Ninja Launches with Hindi Support—Spanish Coming Soon!"
-description: "NAATI Ninja is live with Hindi support for NAATI CCL exam preparation! Spanish is coming soon. Get AI-powered practice tests for your Australian PR application."
-meta_title: "NAATI Ninja Launches with Hindi Support—Spanish Coming Soon!"
+title: "NAATI Ninja Launches with Hindi Support | NAATI CCL Practice Tests & Mock Tests"
+description: "NAATI Ninja is live with Hindi support for NAATI CCL exam preparation! Spanish is coming soon. Get AI-powered practice tests and online NAATI coaching for your Australian PR application and NAATI Australia test."
+meta_title: "NAATI Ninja - NAATI CCL Exam Preparation with Hindi Practice Tests"
 image: "/images/with-love.svg"
 date: 2024-11-01T01:00:00Z
 draft: false

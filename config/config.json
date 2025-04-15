@@ -1,7 +1,7 @@
 {
   "site": {
-    "title": "Naati Ninja | Master the NAATI CCL Exam with AI-Powered Mock Tests",
-    "description": "Prepare Smarter for the NAATI CCL Exam with Naati Ninja",
+    "title": "Naati Ninja | NAATI CCL Practice Tests, Mock Tests & Online Preparation",
+    "description": "Prepare for your NAATI CCL exam with Naati Ninja's AI-powered practice tests and mock tests. Get online NAATI coaching and preparation for your NAATI Australia test.",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
@@ -35,7 +35,7 @@
 
   "metadata": {
     "meta_author": "Naati Ninja",
-    "meta_image": "Naati Ninja | Master the NAATI CCL Exam with AI-Powered Mock Test",
-    "meta_description": "Prepare Smarter for the NAATI CCL Exam with Naati Ninja"
+    "meta_image": "Naati Ninja | NAATI CCL Practice Tests, Mock Tests & Online Preparation",
+    "meta_description": "Prepare for your NAATI CCL exam with Naati Ninja's AI-powered practice tests and mock tests. Get online NAATI coaching and preparation for your NAATI Australia test."
   }
 }

@@ -1,7 +1,7 @@
 ---
-title: "What is NAATI Ninja?"
-description: "What is NAATI Ninja? It's your AI-powered platform for NAATI CCL exam success! Get affordable mock tests, instant feedback, and secure 5 PR points for Australian migration."
-meta_title: "What is NAATI Ninja?"
+title: "What is NAATI Ninja? | NAATI CCL Practice Tests & Online Coaching"
+description: "What is NAATI Ninja? It's your AI-powered platform for NAATI CCL exam success! Get affordable mock tests, instant feedback, and secure 5 PR points for Australian migration. Prepare for your NAATI Australia test!"
+meta_title: "NAATI Ninja - NAATI CCL Exam Preparation with AI-Powered Mock Tests"
 image: "/images/logo.png"
 date: 2024-10-30T01:00:00Z
 draft: false

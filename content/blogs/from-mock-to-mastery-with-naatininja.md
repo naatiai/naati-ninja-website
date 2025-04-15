@@ -1,7 +1,7 @@
 ---
-title: "From Mock Tests to Mastery: How NAATI Ninja Simplifies CCL Prep"
-description: "Discover how NAATI Ninja's AI-driven platform transforms your NAATI CCL preparation with realistic mock tests, instant feedback, and expert insights."
-meta_title: "From Mock Tests to Mastery: How NAATI Ninja Simplifies CCL Prep"
+title: "From Mock Tests to Mastery with NAATI Ninja | NAATI CCL Exam Preparation"
+description: "Discover how NAATI Ninja's AI-driven platform transforms your NAATI CCL preparation with realistic mock tests, instant feedback, and expert insights. Prepare for your NAATI Australia test with our online NAATI coaching."
+meta_title: "NAATI Ninja - NAATI CCL Practice Tests & Mock Tests for Exam Mastery"
 image: "/images/naati-logo.svg"
 date: 2024-11-22T01:00:00Z
 draft: false

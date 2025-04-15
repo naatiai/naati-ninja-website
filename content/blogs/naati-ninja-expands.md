@@ -1,7 +1,7 @@
 ---
-title: "NAATI Ninja Expands! Now Available in Hindi, Tamil & Mandarin"
-description:  "NAATI Ninja expands NAATI CCL exam support to Hindi, Tamil, and Mandarin! Ace your Australian PR application with our AI-powered practice tests and secure 5 PR points."
-meta_title: "NAATI Ninja Expands! Now Available in Hindi, Tamil & Mandarin"
+title: "NAATI Ninja Expands to Hindi, Tamil & Mandarin | NAATI CCL Practice Tests & Mock Tests"
+description:  "NAATI Ninja expands NAATI CCL exam support to Hindi, Tamil, and Mandarin! Ace your Australian PR application with our AI-powered practice tests and secure 5 PR points. Get online NAATI coaching for your NAATI Australia test!"
+meta_title: "NAATI Ninja - NAATI CCL Exam Preparation in Hindi, Tamil & Mandarin"
 image: "/images/work-computer.svg"
 date: 2025-02-18T01:00:00Z
 draft: false

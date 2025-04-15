@@ -1,7 +1,7 @@
 ---
-title: "Why the NAATI CCL Exam Is a Must for Your PR Journey"
-description: "Boost your Australian PR application with the NAATI CCL exam! Earn 5 PR points with NAATI Ninja's AI-powered practice tests in Hindi, Tamil, Mandarin & more. Start preparing now!"
-meta_title: "Why the NAATI CCL Exam Is a Must for Your PR Journey"
+title: "Why NAATI CCL Exam Is a Must for Your PR Journey | NAATI Ninja"
+description: "Boost your Australian PR application with the NAATI CCL exam! Earn 5 PR points with NAATI Ninja's AI-powered practice tests and online NAATI coaching in Hindi, Tamil, Mandarin & more. Start preparing for your NAATI Australia test now!"
+meta_title: "NAATI Ninja - NAATI CCL Exam Preparation for Australian PR"
 image: "/images/departing.svg"
 date: 2024-10-30T01:00:00Z
 draft: false

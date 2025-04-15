@@ -1,8 +1,8 @@
 ---
 banner:
-  title: Master the NAATI CCL Exam with AI-Powered Mock Tests
-  meta_title: NAATI Ninja - Master the NAATI CCL Exam
-  description: Prepare for the NAATI CCL exam, earn 5 crucial points for your Australian PR, and master your interpreting skills
+  title: "NAATI CCL Practice Tests & Mock Tests | Naati Ninja"
+  meta_title: "NAATI Ninja - NAATI CCL Practice, Mock Tests & Online Preparation"
+  description: "Prepare for the NAATI CCL exam in Australia with our AI-powered practice tests and mock tests. Get online NAATI coaching and preparation for your NAATI Australia test. Free mock test available!"
   image: /images/banner.svg
   noindex: false
   canonical: https://naatininja.com/
@@ -13,7 +13,7 @@ banner:
 
 # feature
 feature:
-  title: Why Choose NAATI Ninja
+  title: "Why Choose Naati Ninja for Your NAATI CCL Preparation?"
   features:
     - name: "Real Test Simulations"
       icon: "/images/exam.svg"
@@ -79,8 +79,8 @@ workflow:
 
 # call_to_action
 call_to_action:
-  title: Ready to Ace Your NAATI CCL Exam?
-  content: "Start practicing today with affordable mock tests and instant feedback. Get on the path to success now!"
+  title: "Ready to Ace Your NAATI CCL Exam and Get Your Australian PR?"
+  content: "Start practicing today with affordable NAATI CCL mock tests and instant feedback. Get on the path to success in your NAATI Australia test now!"
   image: /images/cta.svg
   button:
     enable: true
