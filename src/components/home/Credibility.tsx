@@ -27,7 +27,7 @@ export default function Credibility() {
       user_type: "NAATI Candidate",
       quote:
         "Naati Ninja's mock tests are incredibly realistic. The AI feedback is detailed and helpful.",
-      author: "Sarah M.",
+      author: "Mohit S.",
       company: "NAATI Candidate",
     },
     {
@@ -35,7 +35,7 @@ export default function Credibility() {
       user_type: "NAATI Candidate",
       quote:
         "I'm so glad I found Naati Ninja!  It helped me pass the NAATI CCL exam and get my PR points.",
-      author: "Michael T.",
+      author: "Lasith T.",
       company: "NAATI Candidate",
     },
     {
@@ -51,7 +51,7 @@ export default function Credibility() {
       user_type: "Coaching Center",
       quote:
         "We've integrated Naati Ninja into our NAATI CCL prep course, and our students are seeing amazing results!",
-      author: "David B.",
+      author: "Anirudh B.",
       company: "Coaching Center",
     },
   ];
