@@ -51,6 +51,28 @@ const HeroSection = () => {
   const [displayedResponse, setDisplayedResponse] = useState("");
   const [showCursor, setShowCursor] = useState(true);
   const { openCalendly } = useCalendly();
+  const [textIndex, setTextIndex] = useState(0);
+
+  const animatedTexts = [
+    {
+      text: "Hindi (हिन्दी)",
+      color: "from-orange-600 to-red-600",
+    },
+    {
+      text: "Mandarin (中文)",
+      color: "from-red-600 to-yellow-600",
+    },
+    {
+      text: "Nepali (नेपाली)",
+      color: "from-blue-600 to-indigo-600",
+    },
+    { text: "Sinhala (සිංහල)", color: "from-yellow-700 to-green-600" },
+    {
+      text: "Punjabi (ਪੰਜਾਬੀ)",
+      color: "from-green-600 to-emerald-800",
+    },
+    { text: "Tamil (தமிழ்)", color: "from-indigo-600 to-violet-600" },
+  ];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -88,6 +110,14 @@ const HeroSection = () => {
     return () => clearInterval(cursorInterval);
   }, []);
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setTextIndex((prev) => (prev + 1) % animatedTexts.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="relative py-64 bg-white overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
@@ -103,9 +133,14 @@ const HeroSection = () => {
             </p>
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Take AI-powered NAATI CCL mock tests
-            <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-[#0b8d8c] to-[#f7941e] pb-1">
+            Take AI-powered NAATI CCL mock tests in
+            {/* <span className="block mt-2 text-transparent bg-clip-text bg-gradient-to-r from-[#0b8d8c] to-[#f7941e] pb-1">
               In Your Language
+            </span> */}
+            <span
+              className={`pt-2 block mt-2 text-transparent bg-clip-text bg-gradient-to-r ${animatedTexts[textIndex].color} pb-1`}
+            >
+              {animatedTexts[textIndex].text}
             </span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">

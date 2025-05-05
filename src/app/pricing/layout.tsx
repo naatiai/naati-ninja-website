@@ -25,12 +25,6 @@ export default function PricingLayout({ children }: { children: React.ReactNode 
   return (
     <div className="min-h-screen bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <header className="mb-8 text-center">
-          <h1 className="text-4xl font-bold mb-4">Pricing</h1>
-          <p className="text-gray-600">
-            Find the right plan for your NAATI CCL preparation with Naati Ninja.
-          </p>
-        </header>
         {children}
       </div>
       <Footer />
