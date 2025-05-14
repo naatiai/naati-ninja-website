@@ -75,7 +75,7 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndustry((prev) => (prev + 1) % industryExamples.length);
-    }, 6000);
+    }, 8000);
 
     return () => clearInterval(interval);
   }, []);
@@ -111,7 +111,7 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setTextIndex((prev) => (prev + 1) % animatedTexts.length);
-    }, 3000);
+    }, 1500);
 
     return () => clearInterval(interval);
   }, []);
