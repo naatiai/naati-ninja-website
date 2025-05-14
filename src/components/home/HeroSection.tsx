@@ -3,7 +3,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import { useCalendly } from "@/components/RootLayoutClient";
 
 declare global {
   interface Window {
@@ -50,7 +49,6 @@ const HeroSection = () => {
   const [isTyping, setIsTyping] = useState(false);
   const [displayedResponse, setDisplayedResponse] = useState("");
   const [showCursor, setShowCursor] = useState(true);
-  const { openCalendly } = useCalendly();
   const [textIndex, setTextIndex] = useState(0);
 
   const animatedTexts = [
@@ -77,7 +75,7 @@ const HeroSection = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndustry((prev) => (prev + 1) % industryExamples.length);
-    }, 8000);
+    }, 6000);
 
     return () => clearInterval(interval);
   }, []);
